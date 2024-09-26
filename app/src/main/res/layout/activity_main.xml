@@ -15,6 +15,15 @@
         android:backgroundTint="@color/teal_200"
         android:text="Solicitar Permiso de Cámara" />
 
+    <!-- Botón para abrir la cámara -->
+    <Button
+        android:id="@+id/btn_open_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink_300"
+        android:text="Abrir Cámara"
+        android:visibility="gone" />
+
     <TextView
         android:id="@+id/tv_camera_status"
         android:layout_width="match_parent"
@@ -32,6 +41,16 @@
         android:backgroundTint="@color/teal_200"
         android:text="Solicitar Permiso de Ubicación" />
 
+    <!-- Botón para obtener la ubicación -->
+    <Button
+        android:id="@+id/btn_get_location"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink_300"
+        android:text="Obtener Ubicación"
+        android:visibility="gone" />
+
     <TextView
         android:id="@+id/tv_location_status"
         android:layout_width="match_parent"
@@ -48,6 +67,16 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/teal_200"
         android:text="Solicitar Permiso de Almacenamiento" />
+
+    <!-- Botón para acceder al almacenamiento -->
+    <Button
+        android:id="@+id/btn_access_storage"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pink_300"
+        android:text="Acceder al Almacenamiento"
+        android:visibility="gone" />
 
     <TextView
         android:id="@+id/tv_storage_status"
